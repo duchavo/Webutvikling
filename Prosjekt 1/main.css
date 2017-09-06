@@ -43,6 +43,17 @@ body {
     text-align: center;
 }
 
+.video-flex {
+    display: -webkit-flex;
+    display: flex;
+    width: 450px;
+    height: 98px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 24px;
+    border-radius: 20px;
+}
+
 .flex-container {
     display: -webkit-flex;
     display: flex;
@@ -136,25 +147,21 @@ div span {
 .video .hotdog {
     visibility: hidden;
     position: absolute;
-    margin-left: 550px;
 }
 
 .video .burger {
     visibility: hidden;
     position: absolute;
-    margin-left: 550px;
 }
 
 .video .pizza {
     visibility: hidden;
     position: absolute;
-    margin-left: 550px;
 }
 
 .video .fries {
     visibility: hidden;
     position: absolute;
-    margin-left: 550px;
 }
 
 .video .show {
@@ -166,6 +173,7 @@ div span {
 iframe {
     margin-top: 5px;
     border-width: 0px;
+    margin-left: -205px;
 }
 
 .popup {
